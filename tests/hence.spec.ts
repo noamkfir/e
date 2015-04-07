@@ -2,29 +2,29 @@
 
 var expect = chai.expect;
 
-describe('e', () => {
+describe('hence', () => {
 
 	it('should support a single subscription to a single topic', (done) => {
 
-		var e = new E();
+		var hence = new Hence();
 
-		e.subscribe("topic", () => {
+		hence.subscribe("topic", () => {
 			done();
 		});
 
-		e.publish("topic");
+		hence.publish("topic");
 
 	});
 
 	it('should support multiple subscriptions to a single topic', (done) => {
 
-		var e = new E();
+		var hence = new Hence();
 
 		var expected = 2;
 		var triggered = 0;
 
 		for(var i = 0; i < expected; i++) {
-			e.subscribe("topic", () => {
+			hence.subscribe("topic", () => {
 				triggered++;
 				if(triggered === expected) {
 					done();
@@ -32,7 +32,7 @@ describe('e', () => {
 			});
 		}
 
-		e.publish("topic");
+		hence.publish("topic");
 
 	});
 

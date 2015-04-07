@@ -1,12 +1,12 @@
 {
-  "name": "e",
+  "name": "hence",
   "version": "0.1.0",
   "description": "An experimental event manager and pubsub implementation.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "e",
+    "hence",
     "pubsub",
     "mediator",
     "publish/subscribe"

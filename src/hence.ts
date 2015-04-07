@@ -1,4 +1,4 @@
-class E {
+class Hence {
 
 	private subscriptions: { [topic: string]: Function[] } = {};
 
