@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "amd", 
+        "outDir": "built/js/", 
+        "sourceMap": true, 
+        "target": "es5"
+    }, 
+    "globFiles": [
+        "./*.ts",
+        "./src/**/*.ts",
+        "./tests/**/*.spec.ts"
+    ]
+}
