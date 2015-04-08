@@ -1,8 +1,5 @@
 /node_modules
 *.sublime-workspace
 
-/*.js
-src/**/*.js
-tests/**/*.js
 /release
 /typings
