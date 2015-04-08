@@ -34,7 +34,8 @@ module.exports = function(config) {
         //'karma-opera-launcher',
         //'karma-ie-launcher',
         'karma-mocha',
-        'karma-chai'
+        'karma-chai',
+        'karma-spec-reporter'
     ],
 
 
@@ -47,7 +48,7 @@ module.exports = function(config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress'],
+    reporters: ['spec'],
 
 
     // web server port

@@ -2,17 +2,26 @@
   "name": "hence",
   "version": "0.1.0",
   "description": "An experimental event manager and pubsub implementation.",
+  "main": "src/hence.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/noamkfir/hence.git"
   },
   "keywords": [
     "hence",
     "pubsub",
     "mediator",
-    "publish/subscribe"
+    "publish/subscribe",
+    "events"
   ],
-  "author": "Noam Kfir <noam@kfir.cc>",
+  "author": "Noam Kfir <noam@kfir.cc> (http://noam.kfir.cc)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noamkfir/hence/issues"
+  },
   "devDependencies": {
     "chai": "^2.2.0",
     "gulp": "^3.8.11",
@@ -24,7 +33,9 @@
     "karma-cli": "0.0.4",
     "karma-mocha": "^0.1.10",
     "karma-phantomjs-launcher": "^0.1.4",
+    "karma-spec-reporter": "0.0.18",
     "merge2": "^0.3.2",
     "mocha": "^2.2.1"
-  }
+  },
+  "dependencies": {}
 }
