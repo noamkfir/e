@@ -1,0 +1,31 @@
+{
+  "name": "hence",
+  "version": "0.1.0",
+  "homepage": "https://github.com/noamkfir/hence",
+  "authors": [
+    "Noam Kfir <noam@kfir.cc>"
+  ],
+  "description": "An experimental event manager and pubsub implementation.",
+  "main": "src/hence.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "hence",
+    "pubsub",
+    "mediator",
+    "publish/subscribe",
+    "events"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
